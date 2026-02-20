@@ -1,3 +1,5 @@
+import math
+
 class PrimitiveParameters():
   def __init__( self, *args, **kwargs ):
     self.parameters = {
@@ -13,6 +15,8 @@ class PrimitiveParameters():
       min_practical_frequency   : "",
       min_practical_volt  : "" ,
       min_practical_current : "",
+      light_speed: "299792458", # In Vaccum Meter per Second.
+      phi: "3.141592653589793"
     }
 
   def primitive_radius():
