@@ -82,6 +82,8 @@ class PrimitiveParameters():
 
   def primitive_radius_corresponding_to_parameters(self, current_frequency):
     self.primitive_radius = 
+    self.min_volt_require_corresponding_current_frequency =
+    self.max_current_require_corresponding_current_frequency =
   
   parameters = {
     
