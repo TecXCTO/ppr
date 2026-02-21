@@ -2,7 +2,7 @@ import math
 
 class PrimitiveParameters():
   def __init__( self, *args, **kwargs ):
-    self.parameters = {
+    self.electricity_parameters = {
       max_frequency : "",
       max_volt : "",
       max_current : "",
