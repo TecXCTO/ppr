@@ -80,7 +80,8 @@ class PrimitiveParameters():
       min_practical_current : "",
     }
 
-  def primitive_radius():
+  def primitive_radius_corresponding_to_parameters(self, current_frequency):
+    self.primitive_radius = 
   
   parameters = {
     
