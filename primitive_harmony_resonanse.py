@@ -2,6 +2,8 @@ import math
 
 class PrimitiveParameters():
   def __init__( self, *args, **kwargs ):
+    self.light_speed: "299792458", # In Vaccum Meter per Second.
+    self.phi: "3.141592653589793"
     light_speed: "299792458", # In Vaccum Meter per Second.
     phi: "3.141592653589793"
     self.electricity_parameters = {
@@ -43,8 +45,6 @@ class PrimitiveParameters():
       vaccum_permeability : "4*phi*10e-7",
       reletive_permeability: "",
       material_permeability: "",
-      light_speed: "299792458", # In Vaccum Meter per Second.
-      phi: "3.141592653589793"
     }
     self.electricity_corresponding_parameters = {
       max_frequency : "",
