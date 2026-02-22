@@ -33,7 +33,7 @@ class PrimitiveParameters():
     
     }  
     
-    self.magnetism_parameters = {
+    self.magnetic_parameters = {
       max_magnetic_field : "",
       min_magnetic_field : "",
       max_magnetic_field_frequency : "",
@@ -47,37 +47,34 @@ class PrimitiveParameters():
       material_permeability: "",
     }
     self.electricity_corresponding_parameters = {
-      max_frequency : "",
-      max_volt_corresponding_to_max_frequency: "",
-      max_current_corresponding_to_max_frequency : "",
-      min_volt_corresponding_to_max_frequency: "",
-      min_current_corresponding_to_max_frequency : "",
-      max_practical_frequency : "",
-      max_volt_corresponding_to_max_practical_frequency: "",
-      max_current_corresponding_to_max_practical_frequency : "",
-      max_practical_volt_corresponding_to_max_practical_frequency: "",
-      max_practical_current_corresponding_to_max_practical_frequency : "",
-      min_practical_volt_corresponding_to_max_practical_frequency: "",
-      min_practical_current_corresponding_to_max_practical_frequency : "",
-      min_volt_corresponding_to_max_practical_frequency: "",
-      min_current_corresponding_to_max_practical_frequency : "",
-      
-      max_practical_volt : "",
-      
-      max_practical_current : "",
-      
-      min_frequency  : "",
-      
-      
-      min_volt   : "",
-      
-      min_current   : "",
-      
-      min_practical_frequency   : "",
-      
-      min_practical_volt  : "" ,
-      
-      min_practical_current : "",
+      max_frequency_of_electricity : "",
+      max_volt_corresponding_to_max_frequency_of_electricity: "",
+      max_current_corresponding_to_max_frequency_of_electricity : "",
+      min_volt_corresponding_to_max_frequency_of_electricity : "",
+      min_current_corresponding_to_max_frequency_of_electricity : "",
+      max_practical_frequency_of_electricity : "",
+      max_volt_corresponding_to_max_practical_frequency_of_electricity : "",
+      max_current_corresponding_to_max_practical_frequency_of_electricity: "",
+      max_practical_volt_corresponding_to_max_practical_frequency_of_electricity : "",
+      max_practical_current_corresponding_to_max_practical_frequency_of_electricity: "",
+      min_practical_volt_corresponding_to_max_practical_frequency_of_electricity : "",
+      min_practical_current_corresponding_to_max_practical_frequency_of_electricity : "",
+      min_volt_corresponding_to_max_practical_frequency_of_electricity : "",
+      min_current_corresponding_to_max_practical_frequency_of_electricity : "",
+      min_frequency_of_electricity : "",
+      max_volt_corresponding_to_min_frequency_of_electricity: "",
+      max_current_corresponding_to_min_frequency_of_electricity : "",
+      min_volt_corresponding_to_min_frequency_of_electricity : "",
+      min_current_corresponding_to_min_frequency_of_electricity : "",
+      min_practical_frequency_of_electricity : "",
+      max_volt_corresponding_to_min_practical_frequency_of_electricity : "",
+      max_current_corresponding_to_min_practical_frequency_of_electricity: "",
+      max_practical_volt_corresponding_to_min_practical_frequency_of_electricity : "",
+      max_practical_current_corresponding_to_min_practical_frequency_of_electricity: "",
+      min_practical_volt_corresponding_to_min_practical_frequency_of_electricity : "",
+      min_practical_current_corresponding_to_min_practical_frequency_of_electricity : "",
+      min_volt_corresponding_to_min_practical_frequency_of_electricity : "",
+      min_current_corresponding_to_min_practical_frequency_of_electricity : "",
     }
 
   def primitive_radius_corresponding_to_parameters(self, current_frequency):
