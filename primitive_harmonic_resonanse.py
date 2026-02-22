@@ -2,10 +2,10 @@ import math
 
 class PrimitiveParameters():
   def __init__( self, *args, **kwargs ):
-    self.light_speed: "299792458", # In Vaccum Meter per Second.
-    self.phi: "3.141592653589793"
-    light_speed: "299792458", # In Vaccum Meter per Second.
-    phi: "3.141592653589793"
+    self.light_speed = 299792458, # In Vaccum Meter per Second.
+    self.phi = 3.141592653589793
+    light_speed = 299792458, # In Vaccum Meter per Second.
+    phi = 3.141592653589793
     self.electricity_parameters = {
       max_frequency_of_electricity : 10*e+21,
       max_volt : 50000000,
@@ -25,9 +25,9 @@ class PrimitiveParameters():
       min_electric_field_frequency : "",
       max_electric_field_wavelength : "",
       min_electric_field_wavelength : "",
-      max_electric_field_speed : "1/math.sqrt(vaccum_permittivity*vaccum_permeability)", # Permittivity is critical in determining the speed of electromagnetic waves
-      min_electric_field_speed : "1/math.sqrt(material_permittivity*material_permeability)",
-      vaccum_permittivity : "8.854*10e-12", # unit in F/M Farad per meter of SI
+      max_electric_field_speed : 1/math.sqrt(vaccum_permittivity*vaccum_permeability), # Permittivity is critical in determining the speed of electromagnetic waves
+      min_electric_field_speed : 1/math.sqrt(material_permittivity*material_permeability),
+      vaccum_permittivity : 8.854*10e-12, # unit in F/M Farad per meter of SI
       reletive_permittivity : "",
       material_permittivity : "",
     
@@ -40,9 +40,9 @@ class PrimitiveParameters():
       min_magnetic_field_frequency : "",
       max_magnetic_field__wavelength : "",
       min_magnetic_field__wavelength : "",
-      max_magnetic_field_speed : "1/math.sqrt(vaccum_permittivity*vaccum_permeability)",
-      min_magnetic_field_speed : "1/math.sqrt(material_permittivity*material_permeability)",
-      vaccum_permeability : "4*phi*10e-7",
+      max_magnetic_field_speed : 1/math.sqrt(vaccum_permittivity*vaccum_permeability),
+      min_magnetic_field_speed : 1/math.sqrt(material_permittivity*material_permeability),
+      vaccum_permeability : 4*phi*10e-7,
       reletive_permeability: "",
       material_permeability: "",
     }
