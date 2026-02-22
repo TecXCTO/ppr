@@ -82,6 +82,7 @@ class PrimitiveParameters():
     self.min_volt_require_corresponding_input_frequency =
     self.min_current_require_corresponding_input_frequency =
     self.primitive_radius = electricity_wavelegnth/(2*2*phi)
+    # self.primitive_radius = electric_field_wavelegnth/(4*phi)
   
   parameters = {
     
