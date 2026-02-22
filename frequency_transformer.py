@@ -6,4 +6,7 @@ class FrequencyTransformer(PrimitiveParameters):
     self.inpur_frequency=frequency
     self.output_frequency=
   def transformer(self, input_parameter):
+    self.input_frequency = input_parameter[frequency]
+    self.output_frequency = 
+  def frequency_transform(self, in_frequency):
     self.
