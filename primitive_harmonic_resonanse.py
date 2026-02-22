@@ -7,13 +7,13 @@ class PrimitiveParameters():
     light_speed: "299792458", # In Vaccum Meter per Second.
     phi: "3.141592653589793"
     self.electricity_parameters = {
-      max_frequency_of_electricity : "",
-      max_volt : "",
-      max_current : "",
-      max_practical_frequency_of_electricity : "",
-      max_practical_volt : "",
-      max_practical_current : "",
-      min_frequency_of_electricity  : "",
+      max_frequency_of_electricity : 10*e+21,
+      max_volt : 50000000,
+      max_current : 100000,
+      max_practical_frequency_of_electricity : 1000000,
+      max_practical_volt : 1100000,
+      max_practical_current : 10000,
+      min_frequency_of_electricity  : 1,
       min_volt   : "",
       min_current   : "",
       min_practical_frequency_of_electricity   : "",
